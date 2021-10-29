@@ -1,0 +1,62 @@
+[
+  {
+    "key": "pac1",
+    "name": "Beijing",
+    "price": 650,
+    "person": "per person",
+    "information": "Beijing, China’s sprawling capital, has history stretching back 3 millennia. Yet it’s known as much for modern architecture as its ancient sites such as the grand Forbidden City complex, the imperial palace during the Ming and Qing dynasties. Nearby, the massive Tiananmen Square pedestrian plaza is the site of Mao Zedong’s mausoleum and the National Museum of China, displaying a vast collection of cultural relics..",
+
+    "cover": "https://images.pexels.com/photos/2846075/pexels-photo-2846075.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "albam": [{}]
+  },
+  {
+    "key": "pac2",
+    "name": "Maldives",
+    "price": 1350,
+    "person": "per person",
+    "information": "Maldives is a dazzling archipelago of more than a thousand islands that are so beautiful; it feels as if a wizard sprinkled magic white dust on a perfect painting and made it real. Located in the Indian Ocean and not very far from the Indian west coast, Maldives is known for its blinding white sandy beaches (remnants of the wizard’s magic dust, perhaps), glimmering blue water that submerges pretty corals, and cloudless skies. A huge part of Maldives tourism involves newlyweds on their honeymoon. And the place is tailor-made for a perfect romantic getaway. But lately, the paradise nation has also seen a rise in tourists who make a trip to Malives for a family vacation. There are about 200 inhabitable islands in Maldives, and wherever your eyes go, beauty follows. So let’s jump ahead and look at the 20 best places to visit in Maldives.",
+
+    "cover": "https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "albam": [{}]
+  },
+  {
+    "key": "pac3",
+    "name": "Pragus",
+    "price": 600,
+    "person": "per person",
+    "information": "Prague, capital city of the Czech Republic, is bisected by the Vltava River. Nicknamed “the City of a Hundred Spires,” it's known for its Old Town Square, the heart of its historic core, with colorful baroque buildings, Gothic churches and the medieval Astronomical Clock, which gives an animated hourly show. Completed in 1402, pedestrian Charles Bridge is lined with statues of Catholic saints..",
+
+    "cover": "https://images.pexels.com/photos/753337/pexels-photo-753337.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "albam": [{}]
+  },
+  {
+    "key": "pac4",
+    "name": "Malaysia",
+    "price": 640,
+    "person": "per person",
+    "information": "Malaysia is a Southeast Asian country occupying parts of the Malay Peninsula and the island of Borneo. It's known for its beaches, rainforests and mix of Malay, Chinese, Indian and European cultural influences. The capital, Kuala Lumpur, is home to colonial buildings, busy shopping districts such as Bukit Bintang and skyscrapers such as the iconic, 451m-tall Petronas Twin Towers.",
+
+    "cover": "https://images.pexels.com/photos/313032/pexels-photo-313032.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "albam": [{}]
+  },
+  {
+    "key": "pac5",
+    "name": "Slovenia",
+    "price": 1250,
+    "person": "per person",
+    "information": "Slovenia, a country in Central Europe, is known for its mountains, ski resorts and lakes. On Lake Bled, a glacial lake fed by hot springs, the town of Bled contains a church-topped islet and a cliffside medieval castle. In Ljubljana, Slovenia’s capital, baroque facades mix with the 20th-century architecture of native Jože Plečnik, whose iconic Tromostovje (Triple Bridge) spans the tightly curving Ljubljanica River.",
+
+    "cover": "https://images.pexels.com/photos/9291221/pexels-photo-9291221.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "albam": [{}]
+  },
+  {
+    "key": "pac5",
+    "name": "Mykonos",
+    "price": 650,
+    "person": "per person",
+    "information": "Mykonos is an island in the Cyclades group in the Aegean Sea. It's popularly known for its summer party atmosphere. Beaches such as Paradise and Super Paradise have bars that blare thumping music. Massive dance clubs attract world-renowned DJs and typically stay open well past dawn. Iconic landmarks include a row of 16th-century windmills, which sit on a hill above Mykonos town.",
+
+    "cover": "https://images.pexels.com/photos/1285625/pexels-photo-1285625.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "albam": [{}]
+  }
+]

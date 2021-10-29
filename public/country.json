@@ -1,0 +1,29 @@
+[
+  {
+    "key": "c1",
+    "country": "Europe",
+    "details": "From France's cultural attractions to Italy's wealth of historical sights and Germany's magnificent list of stunning architectural destinations, European countries have lots to offer visitors. As a result, picking the best attractions to visit can be extremely difficult Nevertheless, we've put together a list of the top-rated attractions in Europe, no matter whether you're looking for a mysterious destination like Stonehenge or a chance to immerse yourself in a world of art and architecture in ancient Prague Castle or the magnificent Louvre Museum.Learn about the best places to visit in this culturally diverse continent with our list of the top attractions in Europe.",
+    "photos1": "https://i.ibb.co/k8JqnWj/1.png",
+    "photos2": "https://images.pexels.com/photos/161815/santorini-oia-greece-water-161815.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "photos3": "https://images.pexels.com/photos/681405/pexels-photo-681405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "album": [{}]
+  },
+  {
+    "key": "c2",
+    "country": "Asia",
+    "details": "Asia is the largest continent by both size and population-a diverse, multicultural melting pot of some of the oldest civilizations on earth. There's so much to see and do in Asia, it's hard to narrow it down to a shortlist-it could take you months to truly explore just one country. For those on a tighter schedule or budget, the secret to discovering the best places to travel in Asia is to see a bit of everything-from the skyscrapers of Hong Kong to the majestic slopes of Mount Fuji and the architectural marvel of places like Angkor Wat in Cambodia.Regardless of what you truly want to experience in your travels through Asia, there's surely a spot somewhere to fill that need. To help you plan the trip of a lifetime, take a look at our list of the best places to visit in Asia.",
+    "photos1": "https://i.ibb.co/BnWWv16/2.png",
+    "photos2": "https://images.pexels.com/photos/235731/pexels-photo-235731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "photos3": "https://images.pexels.com/photos/584302/pexels-photo-584302.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "album": [{}]
+  },
+  {
+    "key": "c3",
+    "country": "America",
+    "details": "The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s presence into the Pacific Ocean. Major Atlantic Coast cities are New York, a global finance and culture center, and capital Washington, DC. Midwestern metropolis Chicago is known for influential architecture and on the west coast, Los Angeles' Hollywood is famed for filmmaking.",
+    "photos1": " https://i.ibb.co/F34tb9X/3.png",
+    "photos2": " https://images.pexels.com/photos/356844/pexels-photo-356844.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "photos3": " https://images.pexels.com/photos/161963/chicago-illinois-skyline-skyscrapers-161963.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "album": [{}]
+  }
+]
