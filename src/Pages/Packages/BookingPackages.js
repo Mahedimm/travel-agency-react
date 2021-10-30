@@ -1,16 +1,18 @@
 import axios from 'axios';
 import React from 'react';
-import { useForm } from "react-hook-form";
-const AddPackage = () => {
-    const { register, handleSubmit ,reset} = useForm();
-    
+import { useForm } from 'react-hook-form';
+import useAuth from '../../Hooks/useAuth';
 
-    const onSubmit = data => {
+const BookingPackages = () => {
+    const { register, handleSubmit ,reset} = useForm();
+    const{user} = useAuth();
+    
+    const onSubmit = data => { 
         //Performing a POST request using axios
-        axios.post('http://localhost:5000/packages',data)
+        axios.post('http://localhost:5000/orders',data)
         .then(res=>{
             if(res.data.insertedId){
-                alert("Added successfully");
+                alert("Booking SuccessFully");
                 reset();
             }
         })
@@ -29,11 +31,10 @@ const AddPackage = () => {
                         <h1 class=" text-3xl text-grey-800 font-medium leading-loose my-3 w-full">Add New Package</h1>
                         <div class="w-full text-center">
                         <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col justify-between ">
-                            <input {...register("name", { required: true, maxLength: 20 })}  placeholder="Place Name" className="my-5 p-4 border-2 border-red-500 rounded-md"/>
-                            <textarea {...register("information")} placeholder="information" className="my-5 p-4 border-2 border-red-500 rounded-md"/>
-                            <input type="number" {...register("price")} placeholder="Price" className="my-5 p-4 border-2 border-red-500 rounded-md"/>
-                            <input {...register("cover")} placeholder="img url" className="my-5 p-4 border-2 border-red-500 rounded-md"/>
-
+                            <input type='name' {...register("name", { required: true, maxLength: 20 })}  placeholder={user.displayName} className="my-5 p-4 border-2 border-red-500 rounded-md"/>
+                            <input type="email" {...register("email",)}  value={user.email} className="my-5 p-4 border-2 border-red-500 rounded-md"/>
+                            <input  type="phone number"{...register("number",{required:true})} placeholder="Phone Number" className="my-5 p-4 border-2 border-red-500 rounded-md"/>
+                            <input type="text" {...register("location")} placeholder="Location" className="my-5 p-4 border-2 border-red-500 rounded-md"/>
                             <input className='p-2 bg-yellow-400 cursor-pointer hover:bg-yellow-300' type="Submit" />
                         </form>
 
@@ -46,4 +47,4 @@ const AddPackage = () => {
     );
 };
 
-export default AddPackage;
+export default BookingPackages;

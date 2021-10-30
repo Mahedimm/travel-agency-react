@@ -27,7 +27,7 @@ const Admin = () => {
             </Link>
           
           
-            <Link to='/addOrders' 
+            <Link to='/allOrder' 
               class="md:w-32 tracking-wide font-bold rounded border-2 border-yellow-400 hover:text-white hover:border-red-400 hover:bg-red-500 shadow-md py-2 px-6 inline-flex items-center transition duration-500">
               <span class="mx-auto">All Orders</span>
             </Link>

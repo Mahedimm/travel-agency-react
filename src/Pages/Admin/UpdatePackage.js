@@ -1,15 +1,18 @@
 import axios from 'axios';
 import React from 'react';
-import { useForm } from "react-hook-form";
-const AddPackage = () => {
+import { useForm } from 'react-hook-form';
+import { useParams } from 'react-router';
+
+const UpdatePackage = () => {
     const { register, handleSubmit ,reset} = useForm();
-    
+    const {id} = useParams();
 
     const onSubmit = data => {
         //Performing a POST request using axios
-        axios.post('http://localhost:5000/packages',data)
+        axios.put(`http://localhost:5000/packages/${id}`,data)
         .then(res=>{
-            if(res.data.insertedId){
+
+            if(res.data.modifiedCount>0){
                 alert("Added successfully");
                 reset();
             }
@@ -26,7 +29,7 @@ const AddPackage = () => {
         <div class="items-center justify-between py-10 px-5 bg-white shadow-2xl rounded-lg mx-auto text-center">
                 <div class="px-2 -mt-6">
                     <div class="text-center">
-                        <h1 class=" text-3xl text-grey-800 font-medium leading-loose my-3 w-full">Add New Package</h1>
+                        <h1 class=" text-3xl text-grey-800 font-medium leading-loose my-3 w-full">Update Package</h1>
                         <div class="w-full text-center">
                         <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col justify-between ">
                             <input {...register("name", { required: true, maxLength: 20 })}  placeholder="Place Name" className="my-5 p-4 border-2 border-red-500 rounded-md"/>
@@ -46,4 +49,4 @@ const AddPackage = () => {
     );
 };
 
-export default AddPackage;
+export default UpdatePackage;

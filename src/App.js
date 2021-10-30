@@ -8,8 +8,11 @@ import SignIn from "./Pages/Account/SignIn";
 import SignUp from "./Pages/Account/SignUp";
 import AddPackage from "./Pages/Admin/AddPackage";
 import Admin from "./Pages/Admin/Admin";
+import AllOrder from "./Pages/Admin/AllOrder";
 import ManagePackages from "./Pages/Admin/ManagePackages";
+import UpdatePackage from "./Pages/Admin/UpdatePackage";
 import Home from "./Pages/Home/Home";
+import BookingPackages from "./Pages/Packages/BookingPackages";
 import PackDetails from "./Pages/Packages/PackDetails";
 import PrivateRoute from "./Pages/PrivateRouter/PrivateRouter";
 import Header from './Pages/Shared/Header';
@@ -25,6 +28,12 @@ function App() {
            <Home/>
           </Route> 
           <Route path="/home">
+           <Home/>
+          </Route> 
+          <Route path="/blog">
+           <Home/>
+          </Route> 
+          <Route path="/shop">
            <Home/>
           </Route> 
           <Route  path='/signIn'>
@@ -47,6 +56,15 @@ function App() {
             </PrivateRoute>
           <PrivateRoute exact path='/allPackages'>
               <ManagePackages />
+            </PrivateRoute>
+          <PrivateRoute exact path='/packages/update/:id'>
+              <UpdatePackage />
+            </PrivateRoute>
+          <PrivateRoute exact path='/booking/:id'>
+              <BookingPackages />
+            </PrivateRoute>
+          <PrivateRoute exact path='/allOrder'>
+              <AllOrder />
             </PrivateRoute>
         </Switch>
         </Router>
