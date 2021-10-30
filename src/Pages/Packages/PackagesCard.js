@@ -34,7 +34,7 @@ const PackagesCard = ({pack}) => {
                 <div class="p-8 md:pr-18 md:pl-14 md:py-12 mx-2 md:mx-0 h-full bg-white rounded-lg md:rounded-none md:rounded-l-lg shadow-xl md:shadow-none">
                     {/* <h4 class="hidden md:block text-xl text-gray-400">Bienvenido a</h4> */}
                     <h3 class="hidden md:block font-bold text-2xl text-red pb-3">{name}</h3>
-                    <p class="text-gray-600 text-justify overflow-ellipsis overflow-hidden">{information.slice(0,500)}</p>
+                    <p class="text-gray-600 text-justify overflow-ellipsis overflow-hidden">{information}</p>
                     <Link class="flex items-baseline mt-3 text-yellow hover:text-red focus:text-blue-900" to={`/packages/${_id}`}>
                         <span> See Details</span>
                         <span class="text-xs ml-1">&#x279c;</span>

@@ -19,7 +19,7 @@ const Header = () => {
     const [show, setShow] = useState(null);
     return (
         <>
-        <div className="bg-white h-full w-full ">
+        <div className="bg-white h-18 w-full fixed z-40">
             
             <nav className="w-full bg-white hidden xl:block shadow">
                 <div className="container px-6 h-20 flex justify-between items-center lg:items-stretch mx-auto">
