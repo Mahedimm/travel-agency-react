@@ -16,7 +16,7 @@
 
 **Server:** Node, Express 
 
-**Database:** Mondodb
+**Database:** Mongodb
 
   
 ## Live Link
